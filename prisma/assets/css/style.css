@@ -1,0 +1,15 @@
+/* For WebKit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 12px; /* Set the width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: blue; /* Set the color of the thumb (the draggable part of the scrollbar) */
+  }
+  
+  /* For Firefox */
+  /* Note: Firefox does not support changing the scrollbar color directly, but you can change the scrollbar track color */
+  /* Here, we set a light blue track color */
+  body {
+    scrollbar-color: blue lightgray; /* Set the color of the thumb and track (separated by space) */
+  }
